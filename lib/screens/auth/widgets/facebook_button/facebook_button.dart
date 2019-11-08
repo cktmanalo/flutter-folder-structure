@@ -13,7 +13,7 @@ class FacebookButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new AppButton(
-      buttonName: "facebook",
+      buttonName: "Facebook",
       onPressed:() {
         Navigator.of(context).push(
             MaterialPageRoute<Null>(builder: (BuildContext context) {
