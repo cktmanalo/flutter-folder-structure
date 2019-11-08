@@ -17,10 +17,10 @@ class Auth extends StatelessWidget {
           child: new Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              new GoogleButton(),
+              new GoogleButton(url:'https://www.google.com'),
               new Padding(
                 padding: new EdgeInsets.all(8.0),
-                child: new FacebookButton()
+                child: new FacebookButton(url:'https://www.facebook.com')
               )
             ],
           )
